@@ -228,12 +228,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 79459429}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 668546482eb9139409140e41c7112d56, type: 3}
+  m_Script: {fileID: 11500000, guid: a7d23a2eee2864b41b68073fd4a7e8db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 79459435}
   speed: 6
-  historDot: {fileID: 8019353029793340756, guid: 628dbd2c0b80054439528d8c27e31681,
+  historDot: {fileID: 8019353029793340756, guid: 1ab284f7a22caf34c8d6e3031ec03474,
     type: 3}
   history: []
   moving: 0
@@ -267,7 +267,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: f174f03b3e099984e98901b67c95e392,
+  m_Actions: {fileID: -944628639613478452, guid: 8ffefe53932e0394abc7ceba85aa62c1,
     type: 3}
   m_NotificationBehavior: 0
   m_UIInputModule: {fileID: 0}

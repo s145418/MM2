@@ -3,8 +3,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[System.Serializable]
 public class Pose
 {
+    public Joint parent;
     public Joint hips;
 
     #region leftleg
@@ -92,10 +94,26 @@ public class Pose
     #endregion
 }
 
+<<<<<<< HEAD
 
 
+=======
+[System.Serializable]
+>>>>>>> a202a6143e1c41937cd8d81ce33398a2b738efb0
 public class Joint
 {
+    public Joint(Vector3 position, Quaternion rotation)
+    {
+        this.position = position;
+        this.rotation = rotation;
+    }
+
+    public Joint(Transform t)
+    {
+        this.position = t.localPosition;
+        this.rotation = t.localRotation;
+    }
+
     public Vector3 position;
     public Quaternion rotation;
 }
