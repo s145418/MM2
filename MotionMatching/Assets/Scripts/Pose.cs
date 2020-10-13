@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -90,6 +91,8 @@ public class Pose
     public Joint headTopEnd;
     #endregion
 }
+
+
 
 public class Joint
 {
