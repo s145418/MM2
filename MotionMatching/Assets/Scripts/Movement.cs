@@ -37,6 +37,7 @@ public class Movement : MonoBehaviour
     List<SActor> predictions = new List<SActor>();
     public bool moving = false;
     // public bool running;
+    [SerializeField]public int steps = 10;
 
     void Start()
     {
@@ -117,9 +118,8 @@ public class Movement : MonoBehaviour
         return actor;
     }
 
-    static void Predict(CharacterController controller, SActor actor, Vector3 direction, List<SActor> destination, bool moving)
+    static void Predict(CharacterController controller, SActor actor, Vector3 direction, List<SActor> destination, bool moving, int steps)
     {
-        int steps = 10;
         float dt = 0.2f;
 
         destination.Clear();
@@ -153,7 +153,7 @@ public class Movement : MonoBehaviour
 
         Debug.Log(controller.velocity.magnitude);
         actor = Step(controller, actor, this.transform.forward, Time.deltaTime, moving);
-        Predict(controller, actor, this.transform.forward, predictions, moving);   
+        Predict(controller, actor, this.transform.forward, predictions, moving, steps);   
     }
 
 }
