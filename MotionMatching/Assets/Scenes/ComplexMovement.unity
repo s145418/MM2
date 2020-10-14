@@ -341,7 +341,7 @@ MonoBehaviour:
   speed: 6
   turnSmoothTime: 0.1
   turnSmoothVelocity: 0
-  historDot: {fileID: 8019353029793340756, guid: 1ab284f7a22caf34c8d6e3031ec03474,
+  historDot: {fileID: 8019353029793340756, guid: ab4f5b29aabe23a418fd5f6e81de981e,
     type: 3}
   history: []
   moving: 0
@@ -376,7 +376,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: 8ffefe53932e0394abc7ceba85aa62c1,
+  m_Actions: {fileID: -944628639613478452, guid: b9991fc7eb8ce4e45ba2c18d799e2770,
     type: 3}
   m_NotificationBehavior: 0
   m_UIInputModule: {fileID: 0}
@@ -924,7 +924,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 861284880}
-  m_LocalRotation: {x: 0.14898546, y: -0.000000019022616, z: 0.0000000028660805, w: 0.9888394}
+  m_LocalRotation: {x: 0.14898546, y: 0.000000019022616, z: -0.0000000028660805, w: 0.9888394}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -998,7 +998,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1283833779}
-  m_LocalRotation: {x: 0.112967595, y: -0.000000012822178, z: 0.0000000014578224,
+  m_LocalRotation: {x: 0.112967595, y: 0.000000012822176, z: -0.0000000014578222,
     w: 0.9935987}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -1156,7 +1156,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlayerIndex: -1
-  XYAxis: {fileID: -1139440230139405019, guid: 8ffefe53932e0394abc7ceba85aa62c1, type: 3}
+  XYAxis: {fileID: -1139440230139405019, guid: b9991fc7eb8ce4e45ba2c18d799e2770, type: 3}
   ZAxis: {fileID: 0}
 --- !u!1 &1712057879
 GameObject:
