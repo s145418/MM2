@@ -5,4 +5,5 @@ using UnityEngine;
 public class PoseSequence : ScriptableObject
 {
     public Pose[] poseSequence;
+    public int samplingFPS;
 }

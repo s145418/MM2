@@ -94,12 +94,7 @@ public class Pose
     #endregion
 }
 
-<<<<<<< HEAD
-
-
-=======
 [System.Serializable]
->>>>>>> a202a6143e1c41937cd8d81ce33398a2b738efb0
 public class Joint
 {
     public Joint(Vector3 position, Quaternion rotation)
