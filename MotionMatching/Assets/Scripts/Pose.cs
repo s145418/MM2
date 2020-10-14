@@ -1,7 +1,9 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[System.Serializable]
 public class Pose
 {
     public Joint parent;
@@ -92,6 +94,7 @@ public class Pose
     #endregion
 }
 
+[System.Serializable]
 public class Joint
 {
     public Joint(Vector3 position, Quaternion rotation)

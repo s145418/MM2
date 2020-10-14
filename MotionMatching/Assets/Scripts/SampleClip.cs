@@ -191,6 +191,7 @@ public class SampleClipTool: EditorWindow {
         }
 		PoseSequence ps = (PoseSequence) ScriptableObject.CreateInstance(typeof(PoseSequence));
 		ps.poseSequence = poses.ToArray();
+		ps.samplingFPS = samplingRate;
 		Debug.Log(ps.poseSequence[5].leftArm.rotation.eulerAngles);
 		string name = "Assets/PoseSequences/" + animationClip.name + ".asset";
 		AssetDatabase.CreateAsset(ps, name);

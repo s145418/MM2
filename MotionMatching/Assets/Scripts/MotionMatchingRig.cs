@@ -68,6 +68,36 @@ public class MotionMatchingRig : MonoBehaviour
 		return null;
 	}
 
+    public Pose GetPose()
+    {
+        Pose pose = new Pose();
+        pose.parent = new Joint(transform);
+		pose.hips = new Joint(hips);
+		pose.leftUpLeg = new Joint(leftUpLeg);
+		pose.leftLeg = new Joint(leftLeg);
+		pose.leftFoot = new Joint(leftFoot);
+		pose.leftToeBase = new Joint(leftToeBase);
+		pose.rightUpLeg = new Joint(rightUpLeg);
+		pose.rightLeg = new Joint(rightLeg);
+		pose.rightFoot = new Joint(rightFoot);
+		pose.rightToeBase = new Joint(rightToeBase);
+		pose.spine = new Joint(spine);
+		pose.spine1 = new Joint(spine1);
+		pose.spine2 = new Joint(spine2);
+		pose.leftShoulder = new Joint(leftShoulder);
+		pose.leftArm = new Joint(leftArm);
+		pose.leftForeArm = new Joint(leftForeArm);
+		pose.leftHand = new Joint(leftHand);
+		pose.rightShoulder = new Joint(rightShoulder);
+		pose.rightArm = new Joint(rightArm);
+		pose.rightForeArm = new Joint(rightForeArm);
+		pose.rightHand = new Joint(rightHand);
+		pose.neck = new Joint(neck);
+		pose.head = new Joint(head);
+		pose.headTopEnd = new Joint(headTopEnd);
+		return pose;
+    }
+
     public void ApplyPose(Pose p)
     {
         if (p.parent != null)
